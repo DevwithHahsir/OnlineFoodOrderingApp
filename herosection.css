@@ -1,0 +1,39 @@
+.herosection-container
+{
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.carousel-container
+{
+
+   
+    width: 100%;
+
+    
+}
+.carousel-item img
+{
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 3/2;
+    height: 30rem;
+ 
+
+}
+
+@media (max-width:990px) {
+    .carousel-item img
+{
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 3/2;
+    height: auto;
+
+}
+    
+
+}

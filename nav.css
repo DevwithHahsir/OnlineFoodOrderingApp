@@ -1,0 +1,80 @@
+ul {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5rem;
+    align-items: center;
+
+}
+
+ul li {
+    margin-left: 2rem;
+}
+
+nav {
+
+    background-color: #ffdb5c !important;
+    position: sticky !important;
+    top: 0% !important;
+    z-index: 1;
+}
+
+
+.navbar-brand img {
+    width: 5rem !important;
+    height: 5rem !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+li a {
+    color: white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+
+li a:is(:link, :active, :visited).active {
+    background-color: #FFC700;
+    color: #FF204E;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+li a:hover {
+    background-color: #FFC700;
+    color: white;
+    border-radius: 5px;
+    padding: 0px;
+
+}
+
+
+
+
+
+.addtocart button
+{
+    border: none; 
+    border-radius: 7px;
+    object-fit: cover;
+    object-position: center;
+    background-color: #FFC700;
+    font-weight: 500;
+    width:5rem;
+  
+}
+
+.count
+{
+    position: relative;
+    left: 20%;
+}
+
+
+
